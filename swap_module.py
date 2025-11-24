@@ -107,7 +107,7 @@ def Swapout(Experties_on_sub, level):
         elif Experties_on_sub == "ec":
             return check_fn(swap_stage_2_questions, swap_stage_2_options, 5)
 
-    elif level >= 10 and level <= 14:
+    elif level >= 10 and level <= 15:
         if Experties_on_sub == "e":
             return check_fn(swap_stage_3_questions, swap_stage_3_options, 0)
         elif Experties_on_sub == "m":

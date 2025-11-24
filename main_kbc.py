@@ -35,7 +35,7 @@ while experties_on_sub not in valid_inputs:
 lifeline = lifeline_list.copy()
 fifty_count = 0
 
-def audiencepoll(answer,level):
+def audiencepoll(answer, options, level):
     print("\n\n🧑‍🤝‍🧑 Audience Poll Results 📊 ")
     print("The audience has voted! Here are the percentages:")
     if level >= 0 and level <= 4 and fifty_count == 0:
